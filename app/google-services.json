@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188809562658",
+    "firebase_url": "https://trackme-1523457659472.firebaseio.com",
+    "project_id": "trackme-1523457659472",
+    "storage_bucket": "trackme-1523457659472.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188809562658:android:15699f7e9bfd138b",
+        "android_client_info": {
+          "package_name": "com.example.gamer.trackme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188809562658-qtivhj8a9mqvp4uvoc4jhum81v63uuud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamer.trackme",
+            "certificate_hash": "27ad5650dc3a3bf0689d4f7d46bb5bf0e8157933"
+          }
+        },
+        {
+          "client_id": "188809562658-keo2m11cjs396n1h68i1upk03kmrcn87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU98rjbFmGnmaYADEYc1GH-2SkuVzPrG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188809562658-keo2m11cjs396n1h68i1upk03kmrcn87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

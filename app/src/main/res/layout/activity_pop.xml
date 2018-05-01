@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyBackground"
+    tools:context=".popActivity">
+
+    <ImageView
+        android:id="@+id/pop_img_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:id="@+id/pop_txt_label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/pop_img_logo"
+        android:text="Set means of transport"
+        android:gravity="center"
+        android:textColor="@color/colorYellow"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/pop_spn_transport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pop_txt_label1"
+        android:layout_toEndOf="@+id/pop_img_logo" />
+
+    <TextView
+        android:id="@+id/pop_txt_label2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pop_txt_label1"
+        android:layout_below="@+id/pop_spn_transport"
+        android:gravity="center"
+        android:text="Set name "
+        android:textColor="@color/colorYellow"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pop_edtxt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pop_txt_label2"
+        android:layout_alignStart="@+id/pop_txt_label1"
+        android:backgroundTint="@color/colorYellow"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorYellow" />
+
+    <TextView
+        android:id="@+id/pop_txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="233dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/pop_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorYellow"
+        android:text="@string/save"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pop_btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorYellow"
+        android:text="@string/exit"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+</RelativeLayout>

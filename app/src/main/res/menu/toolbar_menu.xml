@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/mnu_spot"
+        android:icon="@drawable/ic_spot_target"
+        android:title="@string/target"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mnu_startstop"
+        android:title="@string/start"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnu_signin"
+        android:title="@string/SignIn"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnu_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnu_savetrip"
+        android:title="@string/savetrip"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnu_rank"
+        android:title="@string/rank"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnu_fame"
+        android:title="@string/fame"
+        app:showAsAction="never" />
+</menu>
